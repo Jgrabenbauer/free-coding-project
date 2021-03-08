@@ -1,0 +1,41 @@
+//Navbar
+.navbar {
+  background-color: #3a5d6f;
+  color: #f4f6f6;
+  padding: 15px;
+
+  a {
+    text-decoration: none;
+    color: #f4f6f6;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+
+    &:hover {
+      color: #ffffff;
+      background-color: #5388a3;
+    }
+  }
+  .navbar-brand:hover {
+    background-color: inherit;
+  }
+}
+
+//Main Lesson Page Layout
+#main {
+  height: 100vh;
+  h1 {
+    margin: 12px;
+  }
+}
+
+#content {
+
+}
+
+#sidebar {
+  background-color: #757e88;
+  height: 100vh;
+  color: #f4f6f6;
+}
